@@ -1,0 +1,28 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "plugins": ["prettier", "mocha"],
+    "rules": {
+        "mocha/no-exclusive-tests": "error",
+        "prettier/prettier": ["error"],
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
+    },
+    "globals": {
+        "describe": false,
+        "it": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "afterEach": false,
+        "require": false
+    }
+}
