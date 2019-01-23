@@ -1,0 +1,24 @@
+{
+  "name": "campaign-generator-example",
+  "version": "1.0.0",
+  "description": "Building static, multi-language, campaign sites, using node and webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha ./tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiobairog/campaign-generator-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "nodejs",
+    "multi-lang"
+  ],
+  "author": "Jason Wilson <jason@wilsons.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgiobairog/campaign-generator-example/issues"
+  },
+  "homepage": "https://github.com/sgiobairog/campaign-generator-example#readme"
+}
