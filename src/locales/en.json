@@ -9,5 +9,11 @@
     "dog": {
         "one": "dog",
         "other": "dogs"
+    },
+    "meta": {
+        "title": "Do you have your dog?"
+    },
+    "styles": {
+        "bodyClass": "type-direction--htb"
     }
 }

@@ -5,5 +5,11 @@
     "%s dog": {
         "one": "%s Hund",
         "other": "%s Hunde"
+    },
+    "meta": {
+        "title": "Haben Sie ihre Hund?"
+    },
+    "styles": {
+        "bodyClass": "type-direction--htb"
     }
 }

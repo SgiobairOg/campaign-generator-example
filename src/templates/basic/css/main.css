@@ -1,0 +1,9 @@
+.type-direction--vrl {
+    writing-mode: vertical-rl;
+}
+.type-direction--vlr {
+    writing-mode: vertical-lr;
+}
+.type-direction--htb {
+    writing-mode: horizontal-tb;
+}

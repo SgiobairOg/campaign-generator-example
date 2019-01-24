@@ -1,0 +1,15 @@
+{
+    "greeting": {
+        "normal": "美好的一天!"
+    },
+    "%s dog": {
+        "one": "%s 狗",
+        "other": "%s 小狗"
+    },
+    "meta": {
+        "title": "你有你的狗嗎？"
+    },
+    "styles": {
+        "bodyClass": "type-direction--vrl"
+    }
+}
