@@ -4,6 +4,7 @@
     "description": "Building static, multi-language, campaign sites, using node and webpack",
     "main": "main.js",
     "scripts": {
+        "start": "node main.js",
         "check": "c8 --check-coverage --lines 100 npm test",
         "test": "mocha 'src/**/*.test.js'"
     },
@@ -26,6 +27,7 @@
         "c8": "^3.3.0",
         "chai": "^4.2.0",
         "mocha": "^5.2.0",
+        "path": "^0.12.7",
         "webpack": "^4.29.0"
     },
     "dependencies": {
