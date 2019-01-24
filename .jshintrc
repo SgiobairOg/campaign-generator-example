@@ -9,6 +9,7 @@
         "beforeEach": false,
         "after": false,
         "afterEach": false,
-        "require": false
+        "require": false,
+        "process": false
     }
 }

@@ -14,7 +14,8 @@
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single"],
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "newline-per-chained-call": [2]
     },
     "globals": {
         "describe": false,
