@@ -1,0 +1,13 @@
+{
+    "greeting": {
+        "normal": "Good day!"
+    },
+    "%s dog": {
+        "one": "%s dog",
+        "other": "%s dogs"
+    },
+    "dog": {
+        "one": "dog",
+        "other": "dogs"
+    }
+}

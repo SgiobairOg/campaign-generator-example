@@ -1,0 +1,9 @@
+{
+    "greeting": {
+        "normal": "Guten Tag!"
+    },
+    "%s dog": {
+        "one": "%s Hund",
+        "other": "%s Hunde"
+    }
+}
