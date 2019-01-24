@@ -1,6 +1,6 @@
 {
     "name": "campaign-generator-example",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Building static, multi-language, campaign sites, using node and webpack",
     "main": "main.js",
     "scripts": {
