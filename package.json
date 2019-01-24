@@ -6,7 +6,9 @@
     "scripts": {
         "start": "node main.js",
         "check": "c8 --check-coverage --lines 100 npm test",
-        "test": "mocha 'src/**/*.test.js'"
+        "test": "mocha 'src/**/*.test.js'",
+        "build": "node './src/scripts/build-site.js'",
+        "serve": "live-server --port=5555 --verbose"
     },
     "repository": {
         "type": "git",
@@ -26,11 +28,16 @@
     "devDependencies": {
         "c8": "^3.3.0",
         "chai": "^4.2.0",
+        "eslint-config-prettier": "^3.6.0",
+        "live-server": "^1.2.1",
+        "minify": "^4.1.0",
         "mocha": "^5.2.0",
         "path": "^0.12.7",
         "webpack": "^4.29.0"
     },
     "dependencies": {
+        "args": "^5.0.0",
+        "fs-extra": "^7.0.1",
         "i18n": "^0.8.3"
     }
 }
