@@ -1,7 +1,7 @@
 /*jslint node: true */
 'use strict';
 
-const i18n = require('i18n');
+const i18n = require('./../config/i18n.config');
 
 class LocaleService {
     constructor(i18nProvider = i18n) {
