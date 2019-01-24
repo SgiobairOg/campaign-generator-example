@@ -35,6 +35,10 @@ Running the `npm run build` command will take the javascript template file and b
 
 With each build, i18n will gather the translation phrases into their respective `.json` files under `src/locales`. You can then edit these files to add the appropriate translations. Translated text will default to the `'en'` locale if not specified.
 
+### Tests and Coverage
+
+`npm run check` Will run all `test.js` unit tests and run code coverage through c8.
+
 ### Local Server
 
 A local server is included to run the files. Running `npm run serve` will start the server and open a browser window at `localhost:5555`. From there you can browse to your output folder and individual locales to review.
